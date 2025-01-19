@@ -1,0 +1,281 @@
+{
+    "intents": [
+      {
+        "tag": "Greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Good morning",
+          "How are you?"
+        ],
+        "responses": [
+          "Hi! How are you feeling today?",
+          "Hello! How’s your day going?",
+          "Hey there! Is there anything on your mind?"
+        ]
+      },
+      {
+        "tag": "FeelingNegative",
+        "patterns": [
+          "I feel sad",
+          "I am stressed",
+          "Life is difficult",
+          "I can't take it anymore",
+          "I'm anxious about everything"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Can you share a bit more about what's troubling you?",
+          "That sounds tough. Want to talk more about it?",
+          "I'm here to listen. What's on your mind?"
+        ]
+      },
+      {
+        "tag": "FeelingPositive",
+        "patterns": [
+          "I feel great",
+          "I'm happy",
+          "Life is good",
+          "I'm feeling good"
+        ],
+        "responses": [
+          "That’s wonderful to hear! What's been going well for you?",
+          "I'm glad to hear that! What’s making you feel good today?",
+          "It's great that you're feeling this way. Keep it up!"
+        ]
+      },
+      {
+        "tag": "StressTriggers",
+        "patterns": [
+          "Work is overwhelming",
+          "I'm struggling with studies",
+          "My family issues are affecting me",
+          "I can't handle my responsibilities"
+        ],
+        "responses": [
+          "It’s natural to feel overwhelmed at times. Can you pinpoint what’s causing this stress?",
+          "Work and responsibilities can be tough. Let’s break it down—what’s one thing bothering you the most?",
+          "Family issues can be draining. Is there anyone you trust to talk to about it?"
+        ]
+      },
+      {
+        "tag": "SeekingHelp",
+        "patterns": [
+          "I need help",
+          "Can you help me?",
+          "What should I do?",
+          "I don't know where to start"
+        ],
+        "responses": [
+          "I’m here for you. What kind of help do you need?",
+          "Let’s figure this out together. Can you share a bit more about what you’re going through?",
+          "It’s brave of you to reach out. I can help you find the right resources."
+        ]
+      },
+      {
+        "tag": "Loneliness",
+        "patterns": [
+          "I feel alone",
+          "Nobody understands me",
+          "I have no one to talk to",
+          "I feel left out"
+        ],
+        "responses": [
+          "Feeling lonely is tough. I’m here to talk if you need someone to listen.",
+          "You’re not alone. Let’s start by sharing how you’re feeling right now.",
+          "Sometimes, expressing yourself helps. Tell me more about how you’re feeling."
+        ]
+      },
+      {
+        "tag": "SuicidalThoughts",
+        "patterns": [
+          "I feel like ending it all",
+          "I can’t go on",
+          "There’s no point in living",
+          "I think about harming myself"
+        ],
+        "responses": [
+          "I'm really sorry you're feeling this way. Please know you're not alone, and help is available. Can I assist in connecting you with a professional?",
+          "This is serious. Please reach out to a trusted person or a mental health professional immediately. You matter.",
+          "Let me help you find support. There are people who care and want to help."
+        ]
+      },
+      {
+        "tag": "Depression",
+        "patterns": [
+          "I feel really tired all the time, even after getting some rest. I just can't shake this feeling of sadness.",
+          "I've been thinking a lot about the past and can't seem to focus on anything positive. I feel stuck."
+        ],
+        "responses": [
+          "It sounds like you're going through a tough time. It's okay to feel this way, but it might be helpful to talk to someone about it.",
+          "I'm really sorry you're feeling this way. Depression can be overwhelming, but reaching out for support can make a big difference."
+        ]
+      },
+      {
+        "tag": "Stress",
+        "patterns": [
+          "I'm overwhelmed with work. It feels like there's just too much to handle right now, and I don't know where to start.",
+          "Lately, I’ve been feeling extremely irritable. Small things set me off, and it’s hard to stay calm."
+        ],
+        "responses": [
+          "It seems like you're under a lot of pressure right now. It's important to take breaks and prioritize your well-being.",
+          "Stress can take a toll on both your mind and body. Take a deep breath and break down your tasks one at a time."
+        ]
+      },
+      {
+        "tag": "Anxiety",
+        "patterns": [
+          "I often get anxious in social settings. I don't know how to control my thoughts and feel uneasy.",
+          "I'm scared about the future. I keep imagining the worst-case scenarios, and it’s really affecting my day-to-day life."
+        ],
+        "responses": [
+          "It’s completely normal to feel anxious sometimes, but it’s important to manage it. You might find some calming techniques helpful.",
+          "Anxiety can feel like a heavy weight. Take things one step at a time, and if possible, talk to a professional for support."
+        ]
+      },
+      {
+        "tag": "Positive",
+        "patterns": [
+          "I feel so happy lately! Everything seems to be going great, and I can't stop smiling."
+        ],
+        "responses": [
+          "That's amazing! I'm so glad to hear that you're feeling happy and positive. Keep riding that good wave of energy!"
+        ]
+      },
+      {
+        "tag": "Depression",
+        "patterns": [
+          "I can't seem to shake this feeling of sadness.",
+          "I feel really down and can't find anything to make me happy."
+        ],
+        "responses": [
+          "It sounds like you're going through a tough time. Please know that you're not alone in this, and it’s important to reach out for support.",
+          "Sadness is a normal emotion, but when it persists, it might be time to talk to someone you trust about how you're feeling."
+        ]
+      },
+      {
+        "tag": "Stress",
+        "patterns": [
+          "I'm feeling overwhelmed with everything going on in my life.",
+          "Work and personal life are both stressing me out, and I don't know how to cope."
+        ],
+        "responses": [
+          "You’re dealing with a lot right now. It’s essential to take things one step at a time and make sure you're taking care of yourself.",
+          "Stress can be overwhelming, but there are strategies like mindfulness and relaxation techniques that might help."
+        ]
+      },
+
+
+      {
+        "tag": "Depression",
+        "patterns": [
+          "I feel so hopeless, like things will never get better.",
+          "Every day feels like a struggle. I don't know how to keep going.",
+          "I can't seem to find any joy in anything I do.",
+          "It feels like no matter how hard I try, I can't get out of this dark place.",
+          "I've been feeling so down lately. Nothing excites me anymore."
+        ],
+        "responses": [
+          "I'm really sorry you're feeling this way. It's important to reach out for support, whether that's a friend or a professional.",
+          "You are not alone, even though it may feel that way sometimes. It's okay to seek help when you need it.",
+          "It's hard when nothing feels enjoyable. Please consider talking to a therapist or counselor who can help you navigate these emotions.",
+          "Feeling stuck is a tough place to be, but small steps every day can help. Please talk to someone who can support you."
+        ]
+      },
+      {
+        "tag": "Stress",
+        "patterns": [
+          "I feel like everything is piling up, and I can't keep up.",
+          "I'm always stressed about my work and personal life. It’s exhausting.",
+          "I don’t know how to manage everything going on right now. I feel overwhelmed.",
+          "I’ve got so much on my plate, and I feel like I’m drowning in responsibilities.",
+          "No matter what I do, I feel stressed out and never enough."
+        ],
+        "responses": [
+          "It sounds like you're carrying a lot on your shoulders right now. Take a break, breathe, and prioritize one thing at a time.",
+          "It's okay to feel overwhelmed. Break your tasks into smaller pieces and tackle them one by one. Don’t hesitate to ask for help.",
+          "Taking care of yourself is essential during stressful times. Make sure you're setting aside time to recharge and reset.",
+          "Stress is a signal that you need to slow down. Start small and focus on what's in front of you—everything else can wait."
+        ]
+      },
+      {
+        "tag": "Anxiety",
+        "patterns": [
+          "I feel like my heart is racing just thinking about everything I have to do.",
+          "I keep overthinking everything, and it's making me anxious.",
+          "I'm constantly worried that something bad is going to happen, even when nothing is wrong.",
+          "I’m always on edge, even when everything seems fine around me.",
+          "I feel paralyzed by fear and can’t control my anxious thoughts."
+        ],
+        "responses": [
+          "Anxiety can make everything feel so much harder. It’s important to take a deep breath and focus on the present moment.",
+          "It’s okay to feel anxious sometimes, but try not to let it control you. A good start is practicing mindfulness or breathing exercises.",
+          "Overthinking often leads to unnecessary stress. Challenge those anxious thoughts and remind yourself that you're safe.",
+          "You’re not alone in feeling anxious, and there are ways to cope. Please consider talking to a mental health professional for guidance."
+        ]
+      },
+      {
+        "tag": "Positive",
+        "patterns": [
+          "Everything seems to be going right for me. I feel really happy these days.",
+          "I feel optimistic about the future. Things are looking up!",
+          "I can’t stop smiling. Life is just great right now!",
+          "It feels like everything I’ve worked for is finally falling into place.",
+          "I’ve been feeling so good lately. I feel energized and excited for what’s ahead."
+        ],
+        "responses": [
+          "That's amazing! It’s wonderful to hear you're feeling this way. Keep riding that positive energy.",
+          "I'm so glad to hear you're feeling great! Embrace this feeling and keep the momentum going.",
+          "It’s fantastic that you’re feeling so optimistic. Keep up the good work, and remember to celebrate these positive moments!",
+          "It sounds like things are really clicking into place for you. Keep nurturing that positivity—you're doing great!"
+        ]
+      },
+      {
+        "tag": "Loneliness",
+        "patterns": [
+          "I feel so isolated. Like no one really understands me.",
+          "I don't have anyone to talk to. I feel completely alone.",
+          "I just feel disconnected from everyone around me.",
+          "It’s hard to find anyone who gets me or listens to me.",
+          "I feel like I’m always by myself, even when I’m with others."
+        ],
+        "responses": [
+          "Loneliness can be incredibly tough. It’s important to reach out to someone, even if it’s a professional who can offer support.",
+          "You don't have to carry this burden alone. There are people who care, even if it doesn’t feel like it right now.",
+          "It’s okay to feel lonely sometimes. Try reaching out to a friend or joining a community to connect with others who understand.",
+          "Being alone can be hard, but it doesn’t mean you're not worthy of companionship. Please talk to someone you trust about your feelings."
+        ]
+      },
+      {
+        "tag": "Motivation",
+        "patterns": [
+          "I don’t feel motivated to do anything lately, even things I used to enjoy.",
+          "I just can't find the energy to get started on my goals.",
+          "I feel stuck in a rut and can’t bring myself to take any action.",
+          "I’ve been procrastinating on everything and don’t know why.",
+          "I want to do things, but I feel too exhausted to even try."
+        ],
+        "responses": [
+          "It’s okay to feel unmotivated sometimes, but try starting small. Take one step and celebrate that progress.",
+          "Lack of motivation is common when we’re feeling overwhelmed. Break things down and start with something easy to build momentum.",
+          "Getting started is often the hardest part. Set a small goal today and see how you feel afterward—it might spark more motivation.",
+          "Focus on the reasons you want to accomplish things, even if they seem small. Finding purpose can help you push through that block."
+        ]
+      },
+
+      {
+        "tag": "Closing",
+        "patterns": [
+          "Thank you",
+          "Bye",
+          "I appreciate your help",
+          "That’s all for now"
+        ],
+        "responses": [
+          "You’re welcome. Remember, I’m here if you need me.",
+          "Take care and reach out anytime you need support.",
+          "Goodbye! Take care of yourself."
+        ]
+      }
+    ]
+  }
+  
